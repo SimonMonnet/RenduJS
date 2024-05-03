@@ -59,10 +59,6 @@ function header() {
       myH2.textContent = projetJs.phraseAccroche;
       document.querySelector("#head").appendChild(myH2);
 
-    let btn = document.createElement("BUTTON");      
-    let bouton = document.createTextNode("Réservez votre aventure");       
-    btn.appendChild(bouton);                                
-    document.querySelector("#head").appendChild(btn); 
 
 }
 
